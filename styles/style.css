@@ -4,13 +4,17 @@ body{
 div{
   width: 500px;
   height: 200px;
+  display: inline-block;
 }
 .blue{
   background: #3498db;
 }
 .white{
   background:white;
+  /**display: none;**/
+  /**visibility: hidden;**/
 }
+
 .red{
   background: #e74c3c;
 }
