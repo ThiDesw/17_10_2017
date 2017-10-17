@@ -2,7 +2,7 @@ body{
   background:#AAAAAA;
 }
 div{
-  width: 500px;
+  width: 400px;
   height: 200px;
   display: inline-block;
 }
@@ -17,4 +17,22 @@ div{
 
 .red{
   background: #e74c3c;
+}
+
+.link{
+ padding: 10px 20px;
+ text-decoration: none;
+ background:#e74c3c;
+ display: inline-block;
+ color: white;
+ text-transform: uppercase;
+ font-family: Arial,sans-serif;
+ transition:all 0.3s linear;
+}
+
+/** link:hover permet de voir ce qu'il se passe quand on survole le bouton **/
+
+.link:hover{
+  color: #e74c3c;
+  background: white;
 }
